@@ -1,0 +1,22 @@
+{
+    "name": "defi-staking-dapp",
+    "version": "1.0.0",
+    "description": "DeFi Staking DApp",
+    "scripts": {
+        "test": "truffle test",
+        "compile": "truffle compile",
+        "migrate": "truffle migrate",
+        "start": "react-scripts start"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.8.0",
+        "@truffle/hdwallet-provider": "^2.1.0",
+        "web3": "^1.8.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "truffle": "^5.7.0",
+        "chai": "^4.3.7"
+    }
+}
